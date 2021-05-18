@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 import sys
-
 #safe_print
 def safe_print_integer_err(value):
     try:
