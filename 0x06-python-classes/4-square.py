@@ -11,10 +11,12 @@ class Square:
     def __init__(self, size=0):
         """Constructor to initialize the attributes"""
         self.__size = size
+
     @property
     def size(self):
         """Returns the size square"""
         return self.__size
+
     @size.setter
     def size(self, size):
         """set __size"""
