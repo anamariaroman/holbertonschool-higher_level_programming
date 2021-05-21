@@ -3,7 +3,12 @@
 
 
 class Rectangle:
-
+    """ Constructor method to initialize the attribute of the
+        instantiated object with two optionals parameters:
+        Args:
+            param1 (width): Is a private attribute
+            param2 (height): Is a private attribute
+        """
     def __init__(self, width=0, height=0):
         self.height = height
         self.width = width
