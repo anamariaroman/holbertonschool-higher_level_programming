@@ -1,0 +1,28 @@
+Module =  "2-matrix_divided.py":
+===========================
+using matrix_divided function
+===========================
+
+Import matrix_divided function from "2-matrix_divided.py":
+		>>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+
+Div as a string (div):
+		>>> matrix_divided([[1, 2, 3], [4, 5, 6]], "More")
+		Traceback (most recent call last):
+		...
+		TypeError: div must be a number
+
+Div = 25 (div):
+		>>> matrix_divided([[1, 2, 3], [4, 5, 6]], 25)
+		[[0.04, 0.08, 0.12], [0.16, 0.2, 0.24]]
+
+One element of matrix as a string:
+		>>> matrix_divided([[1, 2, 3], [4, 5, "Candy"]], 2)
+		Traceback (most recent call last):
+		...
+		TypeError: unsupported operand type(s) for /: 'str' and 'int'
+
+Negative number (div):
+		>>> matrix_divided([[1, 2, 3], [4, 5, 6]], -3)
+		[[-0.33, -0.67, -1.0], [-1.33, -1.67, -2.0]]

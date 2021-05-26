@@ -1,0 +1,29 @@
+Module = "3-say_my_name.py"
+=========================
+use say_my_name
+=========================
+
+Import:
+	>>> say_my_name = __import__("3-say_my_name").say_my_name
+
+Check null:
+	 >>> say_my_name(NULL, 'Joe')
+	 Traceback (most recent call last):
+	 ...
+	 NameError: name 'NULL' is not defined
+
+Check 2:
+	 >>> say_my_name(2, 'More')
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: first_name must be a string
+
+Check Any Candy:
+	 >>> say_my_name('Any', 'Candy')
+	 My name is Any Candy
+
+Check Any Candy 2:
+	 >>> say_my_name('Any', 'Candy', 2)
+	 Traceback (most recent call last):
+	 ...
+	 TypeError: say_my_name() takes from 1 to 2 positional arguments but 3 were given
