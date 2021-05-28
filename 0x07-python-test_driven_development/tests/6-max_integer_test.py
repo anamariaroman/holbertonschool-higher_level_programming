@@ -11,8 +11,8 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer([]), None)
 
     def test_integers(self):
-        self.assertEqual(max_integer([500, 30, -25, 44]), 500)
-        self.assertEqual(max_integer([-20, 0, -100, -60]), 0)
+        self.assertEqual(max_integer([50, 30, -25, 44]), 50)
+        self.assertEqual(max_integer([-30, 0, -100, -60]), 0)
 
     def test_string(self):
         self.assertEqual(max_integer(["Make America", "Great again"]),
