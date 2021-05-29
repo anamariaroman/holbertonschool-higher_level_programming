@@ -1,15 +1,17 @@
 #!/usr/bin/python3
-"""This function returns
-    and that adds 2 integers"""
+"""
+    Module create function that adds 2 integers
+	and return a + b
+"""
 
 
 def add_integer(a, b=98):
-    if type(a) != int and type(a) != float:
+    """ This function adds 2 integers """
+
+    if type(a) is not int and type(a) is not float:
         raise TypeError("a must be an integer")
-    elif type(b) != int and type(b) != float:
+
+    if type(b) is not int and type(b) is not float:
         raise TypeError("b must be an integer")
-    if type(a) is float:
-        a = int(a)
-    if type(b) is float:
-        b = int(b)
-    return a + b
+
+    return int(a) + int(b)
