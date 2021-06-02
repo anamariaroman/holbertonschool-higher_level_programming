@@ -1,0 +1,22 @@
+Importing
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+
+Module doc:
+>>> x = __import__('7-base_geometry').__doc__
+>>> len(x) > 1
+True
+
+Class doc:
+>>> y = __import__('7-base_geometry').BaseGeometry.__doc__
+>>> len(y) > 1
+True
+
+Area doc:
+>>> z = __import__('7-base_geometry').BaseGeometry.area.__doc__
+>>> len(z) > 1
+True
+
+Integer valid doc:
+>>> k = __import__('7-base_geometry').BaseGeometry.integer_validator.__doc__
+>>> len(k) > 1
+True
