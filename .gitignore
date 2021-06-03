@@ -74,3 +74,17 @@
 0x0A-python-inheritance/__pycache__/5-base_geometry.cpython-38.pyc
 .gitignore
 0x0A-python-inheritance/__pycache__/6-base_geometry.cpython-38.pyc
+0x0B-python-input_output/__pycache__/0-read_file.cpython-38.pyc
+.gitignore
+0x0B-python-input_output/__pycache__/1-write_file.cpython-38.pyc
+0x0B-python-input_output/__pycache__/2-append_write.cpython-38.pyc
+0x0B-python-input_output/__pycache__/4-from_json_string.cpython-38.pyc
+.gitignore
+0x0B-python-input_output/__pycache__/5-save_to_json_file.cpython-38.pyc
+.gitignore
+0x0B-python-input_output/__pycache__/6-load_from_json_file.cpython-38.pyc
+0x0B-python-input_output/__pycache__/8-class_to_json.cpython-38.pyc
+0x0B-python-input_output/__pycache__/8-my_class.cpython-38.pyc
+0x0B-python-input_output/__pycache__/3-to_json_string.cpython-38.pyc
+0x0B-python-input_output/__pycache__/9-student.cpython-38.pyc
+0x0B-python-input_output/__pycache__/10-student.cpython-38.pyc
