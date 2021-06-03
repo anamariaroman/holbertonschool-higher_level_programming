@@ -16,6 +16,7 @@ class Student:
             return self.__dict__
         else:
             new_aux = {}
+
             for i in attrs:
                 if i in self.__dict__:
                     new_aux[i] = self.__dict__[i]
