@@ -27,7 +27,7 @@ def all_routes(path):
     print("\t-json body: ")
     print("\t\t%s" % request.json)
 
-    return "anita"
+    return request.method
 
 
 if __name__ == '__main__':
