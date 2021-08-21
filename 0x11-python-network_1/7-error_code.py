@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" Takes in a URL, sends a request to the URL and displays the body of the response.(error text) """
+""" Takes in a URL, sends a request to the URL and displays
+the body of the response.(error text) """
 import requests
 import sys
 
